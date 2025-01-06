@@ -20,7 +20,7 @@ const Introduction = () => {
           />
         </motion.div>
 
-        {/* Brief Intro */}
+        
         <motion.div
           className="w-full md:w-1/2 mt-6 md:mt-0 text-center md:text-left"
           initial={{ opacity: 0, x: 50 }}

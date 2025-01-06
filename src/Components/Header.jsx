@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         <h1 className="text-2xl font-bold">My Portfolio</h1>
         <nav>
-          <ul className="flex space-x-6">
+          <ul className="flex space-x-8 text-xl">
             <li><a href="#introduction" className="hover:text-blue-600">Home</a></li>
             <li><a href="#skills" className="hover:text-blue-600">Skills</a></li>
             <li><a href="#resume" className="hover:text-blue-600">Resume</a></li>

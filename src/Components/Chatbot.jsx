@@ -21,16 +21,16 @@ const Chatbot = () => {
   };
 
   const toggleChatbot = () => {
-    setIsOpen(!isOpen); // Toggle the chatbot visibility
+    setIsOpen(!isOpen); 
   };
 
   const closeChatbot = () => {
-    setIsOpen(false); // Close the chatbot
+    setIsOpen(false); 
   };
 
   return (
     <div>
-      {/* Chatbot Icon */}
+      
       {!isOpen && (
         <div
           onClick={toggleChatbot}

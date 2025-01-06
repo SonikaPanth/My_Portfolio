@@ -2,11 +2,11 @@
 
 const Skills = () => {
     const skills = [
-        { name: "React", icon: "⚛️" }, // React (Atom symbol)
-        { name: "Tailwind", icon: "🛠️" }, // Tailwind (Wind symbol)
-        { name: "JavaScript", icon: "💻" }, // JavaScript (Laptop symbol for coding)
-        { name: "Data Structures", icon: "📚" }, // Data Structures (Books symbol)
-        { name: "HTML", icon: "🌐" }, // HTML (Globe symbol representing the web)
+        { name: "React", icon: "⚛️" }, 
+        { name: "Tailwind", icon: "🛠️" }, 
+        { name: "JavaScript", icon: "💻" }, 
+        { name: "Data Structures", icon: "📚" }, 
+        { name: "HTML", icon: "🌐" }, 
       ];
       
 

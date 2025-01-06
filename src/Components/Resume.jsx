@@ -8,7 +8,7 @@ const Resume = () => {
       <a
         href="/SonikaResume.pdf" // Path relative to the public folder
         download="SonikaResume"
-        className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded shadow hover:bg-blue-700"
+        className="mt-4 inline-block bg-red-600 text-white px-6 py-2 rounded shadow hover:bg-blue-700"
       >
         Download Resume
       </a>

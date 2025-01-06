@@ -165,7 +165,7 @@ app.post("/api/chat", async (req, res) => {
         Email: ${resumeData.contact.email}
         Phone: ${resumeData.contact.phone}`;
     }
-    // Coursework related queries
+    
     else if (lowercaseQuery.includes("course")) {
       response = `My relevant coursework includes: ${resumeData.coursework.join(", ")}`;
     }
