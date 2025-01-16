@@ -1,4 +1,3 @@
-
 import { FaGraduationCap } from "react-icons/fa";
 
 const qualifications = [
@@ -20,14 +19,14 @@ const Qualification = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-8">Qualification</h2>
         <div className="relative">
-          
+          {/* Timeline Line */}
           <div className="absolute left-8 top-0 w-1 h-full bg-gray-700"></div>
           {qualifications.map((item, index) => (
             <div
               key={index}
               className="flex items-start mb-12 relative pl-16"
             >
-              
+              {/* Icon */}
               <div className="absolute left-4 top-0 bg-gray-800 p-2 rounded-full">
                 <FaGraduationCap className="text-indigo-500 w-6 h-6" />
               </div>

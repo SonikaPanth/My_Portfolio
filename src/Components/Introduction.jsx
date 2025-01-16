@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 import img from '../assets/img.jpeg'; // Import your profile image
 
@@ -20,7 +19,7 @@ const Introduction = () => {
           />
         </motion.div>
 
-        
+        {/* Brief Intro */}
         <motion.div
           className="w-full md:w-1/2 mt-6 md:mt-0 text-center md:text-left"
           initial={{ opacity: 0, x: 50 }}
@@ -31,7 +30,7 @@ const Introduction = () => {
             Hi, I'm <span className="text-indigo-600">Sonika Panth</span>
           </h1>
           <p className="mt-4 text-gray-600 text-lg">
-          I'm a Software / Frontend Developer from India. Currently a Computer Science student at MNNIT Allahabad. I'm passionate about programming and developement. In my spare time, I like to read books and write.
+            I'm a Software / Frontend Developer from India. Currently a Computer Science student at MNNIT Allahabad. I'm passionate about programming and development. In my spare time, I like to read books and write.
           </p>
           <div className="mt-6">
             <a

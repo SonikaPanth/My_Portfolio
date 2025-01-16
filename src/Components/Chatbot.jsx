@@ -21,21 +21,20 @@ const Chatbot = () => {
   };
 
   const toggleChatbot = () => {
-    setIsOpen(!isOpen); 
+    setIsOpen(!isOpen); // Toggle the chatbot visibility
   };
 
   const closeChatbot = () => {
-    setIsOpen(false); 
+    setIsOpen(false); // Close the chatbot
   };
 
   return (
     <div>
-      
+      {/* Chatbot Icon */}
       {!isOpen && (
         <div
           onClick={toggleChatbot}
           className="fixed bottom-5 right-5 bg-blue-600 text-white p-3 rounded-full cursor-pointer shadow-lg hover:bg-blue-700"
-          
         >
           <i className="fas fa-comment">Ask Anything</i> {/* Icon for opening the chatbot */}
         </div>

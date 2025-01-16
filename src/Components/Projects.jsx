@@ -10,19 +10,20 @@ const Projects = () => {
       image: P1, // Replace with your image URL
       github: "https://github.com/rishirajca081/Project-2024", // Replace with your GitHub link
       liveDemo: "https://project-2024-chi.vercel.app/", // Replace with your live demo link
+      description: "A networking platform for students and alumni of MNNIT.",
     },
     {
       name: "SuperStore Management System",
-      
-      image: P2, 
-      github: "https://github.com/SonikaPanth/SuperStore", 
-    //   liveDemo: "https://project2-demo.com", 
+      image: P2,
+      github: "https://github.com/SonikaPanth/SuperStore",
+      description: "A management system for tracking and managing store inventories.",
     },
     {
       name: "Todo App",
-      image: P3, 
-      github: "https://github.com/SonikaPanth/EliteFit_Task", 
-      liveDemo: "https://elite-fit-task-ten.vercel.app/",  
+      image: P3,
+      github: "https://github.com/SonikaPanth/EliteFit_Task",
+      liveDemo: "https://elite-fit-task-ten.vercel.app/",
+      description: "A simple app to manage tasks with due dates and categories.",
     },
   ];
 
@@ -53,14 +54,16 @@ const Projects = () => {
                   >
                     <FaGithub className="mr-2" /> GitHub
                   </a>
-                  <a
-                    href={project.liveDemo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:text-blue-400 flex items-center"
-                  >
-                    <FaExternalLinkAlt className="mr-2" /> Live Demo
-                  </a>
+                  {project.liveDemo && (
+                    <a
+                      href={project.liveDemo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:text-blue-400 flex items-center"
+                    >
+                      <FaExternalLinkAlt className="mr-2" /> Live Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
